@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.forma {
+  border: 1px solid lightblue;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
