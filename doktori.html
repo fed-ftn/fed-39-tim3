@@ -11,32 +11,48 @@
 </head>
 
 <body>
+  <h3>Dodavanje doktora</h3>
   <div class="forma">
+
     <form action="">
-      <label for="ime">Ime:</label>
-      <input type="text" name="ime" id="ime">
+      <div class="container">
+        <div class="row">
+          <label for="ime">Ime:</label>
+          <input type="text" name="ime" id="ime" placeholder="Upisite ime">
+        </div>
 
-      <label for="prezime">Prezime:</label>
-      <input type="text" name="prezime" id="prezime"> <br><br>
+        <div class="row">
+          <label for="prezime">Prezime:</label>
+          <input type="text" name="prezime" id="prezime" placeholder="Upisite prezime">
+        </div>
 
-      <label for="specijalnost">Specijalnost:</label>
-      <input type="text" name="specijalnost" id="specijalnost">
-
-      <label for="kancelarija">Kancelarija:</label>
-      <input type="text" name="kancelarija" id="kancelarija"><br><br>
-
-      <label for="date">Radno vreme:</label>
-      <input type="date" name="date" id="date">
-
-      <label for="date2">-</label>
-      <input type="date" name="date2" id="date2"><br><br>
-
-      <input type="submit" value="Dodaj">
-      <input type="reset" value="Odustani">
+        <div class="row">
+          <label for="specijalnost">Specijalnost:</label>
+          <input type="text" name="specijalnost" id="specijalnost">
+        </div>
 
 
+        <div class="row">
+          <label for="kancelarija">Kancelarija:</label>
+          <input type="text" name="kancelarija" id="kancelarija">
+        </div>
 
+        <div class="datum">
+          <label for="date">Radno vreme:</label>
+          <input type="date" name="date" id="date">
+          <label for="date2"> - </label>
+          <input type="date" name="date2" id="date2">
+        </div>
 
+        <div class="row">
+
+        </div>
+        <div class="row">
+          <input type="submit" value="Dodaj">
+          <input type="reset" value="Odustani">
+        </div>
+
+      </div>
 
     </form>
   </div>

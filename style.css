@@ -5,10 +5,67 @@
 }
 
 .forma {
-  border: 1px solid lightblue;
-  background-color: lightskyblue;
-  border-radius: 5px;
+  border: 1px solid skyblue;
+  background-color: rgba(173, 216, 230, 0.318);
+  border-radius: 8px;
   width: 70%;
   margin: auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5px 0;
+  gap: 5px;
+  width: 100%;
+}
+
+.datum {
+  display: flex;
+  grid-column: 1 /span 2;
+  justify-content: flex-start;
+}
+
+.datum label:first-child {
+  width: 25%;
+
+}
+
+.datum :nth-child(3) {
+  margin: 0 5px;
+
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
   text-align: center;
+  color: blue;
+}
+
+input[type="date"] {
+  width: 37%;
+
+}
+
+input[type="submit"],
+input[type="reset"] {
+  margin: 0px 0px 0px 10px;
+  background-color: gainsboro;
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+
 }
