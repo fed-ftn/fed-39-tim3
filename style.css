@@ -69,3 +69,30 @@ input {
   padding: 5px;
 
 }
+
+.table table {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table table tr,
+.table table tr th,
+.table table tr td {
+  padding: 5px;
+  text-align: left;
+}
+
+.table table tr {
+  border-bottom: 1px solid skyblue;
+  border-top: 1px solid skyblue;
+}
+
+.table table tr:first-child {
+  background-color: rgba(135, 207, 235, 0.162);
+}
+
+.table table tr:nth-child(odd):not(:first-child) {
+  background-color: rgba(127, 255, 212, 0.529);
+}
